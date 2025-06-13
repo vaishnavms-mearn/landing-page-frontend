@@ -25,7 +25,6 @@ export default function HeroSection() {
         flexWrap: 'wrap'
       }}
     >
-      {/* TEXT CONTENT */}
       <Stack spacing={3} alignItems="flex-start" maxWidth="630px">
         <Typography
           variant="h2"

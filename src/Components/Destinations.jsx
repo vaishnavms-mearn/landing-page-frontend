@@ -96,7 +96,7 @@ export default function Destinations() {
         </Alert>
       )}
 
-      {/* Grid */}
+
       {!isLoading && !isError && (
         <>
           <Grid container spacing={4} justifyContent="center">
@@ -104,8 +104,8 @@ export default function Destinations() {
               <Grid item xs={12} sm={6} md={4} key={item._id} sx={{ display: 'flex', justifyContent: 'center' }}>
                 <Card
                   sx={{
-                    width: '100%', // This will make all cards same width
-                    maxWidth: 390, // Adjust this value to your preferred maximum width
+                    width: '100%',
+                    maxWidth: 390,
                     borderRadius: 3,
                     transition: '0.3s',
                     '&:hover': {
@@ -122,7 +122,7 @@ export default function Destinations() {
                     sx={{
                       objectFit: 'cover',
                       borderRadius: '12px 12px 0 0',
-                      width: '100%' // Ensure image takes full card width
+                      width: '100%' 
                     }}
                   />
                   <CardContent

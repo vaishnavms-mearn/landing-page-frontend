@@ -35,7 +35,7 @@ export default function Testimonials() {
                     textAlign: 'left',
                     mb: 6,
 
-                    ml: { xs: 2, sm: 6, md: 10 }, // Responsive margin
+                    ml: { xs: 2, sm: 6, md: 10 }, 
                     fontSize: { xs: '1.8rem', sm: '2.2rem' }
                 }}
             >
