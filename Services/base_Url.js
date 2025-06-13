@@ -1,1 +1,1 @@
-export const base_Url="http://localhost:5002"
+export const base_Url="https://landing-page-backend-1-6fxg.onrender.com"
